@@ -14,7 +14,7 @@ you stop trusting the model with everything:
 | Puzzle solutions | Inside the prompt | Only in Python code — never sent to the model |
 | Works without an API key? | No (crashes) | Yes (offline mode) |
 | Automated tests | None possible | 49 pytest tests |
-| Code | [`v1/`](v1) · branch [`version-1`](../../tree/version-1) (V1 snapshot) | [`v2/`](v2) · branch `main` |
+| Code | [`v1/`](v1) · branch [`version-1`](https://github.com/Vighnajit1210/AI-Escape-Room/tree/version-1) (V1 snapshot) | [`v2/`](v2) · branch `main` |
 
 ![V2 gameplay with debug view](docs/screenshots/v2_progress_debug.png)
 

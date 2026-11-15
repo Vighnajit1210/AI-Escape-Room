@@ -1,6 +1,6 @@
 # Version 1 — LLM as the whole game
 
-Code: [`v1/`](../v1)  ·  Snapshot of the repository at the end of V1: branch [`version-1`](../../../tree/version-1)
+Code: [`v1/`](../v1)  ·  Snapshot of the repository at the end of V1: branch [`version-1`](https://github.com/Vighnajit1210/AI-Escape-Room/tree/version-1)
 
 ## Idea
 
