@@ -99,7 +99,11 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["text"])
         if show_debug and msg["debug"]:
-            st.json(msg["debug"], expanded=False)
+            d = msg["debug"]
+            act = d["parsed action"] or {}
+            act_txt = ", ".join(f"{k}={v}" for k, v in act.items() if v) or "-"
+            st.caption(f"🔍 action: `{act_txt}` · intent from **{d['intent from']}** · "
+                       f"text from **{d['text from']}** · event `{d['engine event']}` · note: {d['note']}")
 
 if state.escaped:
     if not st.session_state.get("celebrated"):
