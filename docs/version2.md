@@ -1,6 +1,6 @@
 # Version 2 — Game engine + AI narrator + guardrails
 
-Code: [`v2/`](../v2)  ·  Git tag: `v2.0`
+Code: [`v2/`](../v2)  ·  Branch `main`
 
 ## Key idea
 

@@ -1,6 +1,6 @@
 # Version 1 — LLM as the whole game
 
-Code: [`v1/`](../v1)  ·  Git tag: `v1.0`
+Code: [`v1/`](../v1)  ·  Snapshot of the repository at the end of V1: branch [`version-1`](../../../tree/version-1)
 
 ## Idea
 
